@@ -1,0 +1,42 @@
+﻿@model IEnumerable<Product>
+@section Scripts
+{
+    @*<script src="~/ts/shopper.js"></script>
+        <script src="~/ts/main.js"></script>
+        Commented these script or angular - as we will be going to use client scripts    *@
+    <script src="~/Client/vendor.js"></script>
+    <script src="~/Client/polyfills.js"></script>
+    <script src="~/Client/runtime.js"></script>
+    <script src="~/Client/main.js" asp-append-version="true"></script>
+    <!-- we use app-append-version = true throw in a version tag in the browser to break the cache
+        in the browser as our main.js can contain chanegs very frequently -->
+}
+@section head
+{
+    <link href="~/Client/styles.css" rel="stylesheet" />     @*//for angular*@
+}
+
+<the-shop></the-shop>
+
+@*Commented below code for Angular*@
+@*<h1>Shop</h1>
+    <p>Count: @Model.Count()</p>
+    <div class="row">
+        @foreach (var p in Model)
+        {
+            <div class="col-md-3">
+                <div class="border bg-light rounded p-1">
+                    <img src="~/img/@(p.ArtId).jpg" class="img-fluid" alt="@p.Title" title="@p.Title" />
+                    <h3>@p.Category - @p.Size</h3>
+                    <ul>
+                        <li>Price: @p.Price</li>
+                        <li>Artist: @p.Artist</li>
+                        <li>Title: @p.Title</li>
+                        <li>Desciption: @p.ArtDescription</li>
+                    </ul>
+                    <button id="buybtn" class="btn btn-primary btn-success">Buy</button>
+                </div>
+            </div>
+
+        }*@
+</div>

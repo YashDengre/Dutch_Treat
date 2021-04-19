@@ -1,0 +1,14 @@
+Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\bin\Debug\netcoreapp2.1\DutchTreat.deps.json
+Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\bin\Debug\netcoreapp2.1\DutchTreat.runtimeconfig.json
+Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\bin\Debug\netcoreapp2.1\DutchTreat.runtimeconfig.dev.json
+Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\bin\Debug\netcoreapp2.1\DutchTreat.dll
+Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\bin\Debug\netcoreapp2.1\DutchTreat.pdb
+Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\DutchTreat.csprojAssemblyReference.cache
+Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\DutchTreat.AssemblyInfoInputs.cache
+Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\DutchTreat.AssemblyInfo.cs
+Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\DutchTreat.csproj.CoreCompileInputs.cache
+Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\DutchTreat.RazorAssemblyInfo.cache
+Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\DutchTreat.RazorAssemblyInfo.cs
+Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\DutchTreat.RazorTargetAssemblyInfo.cache
+Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\DutchTreat.dll
+Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\DutchTreat.pdb
