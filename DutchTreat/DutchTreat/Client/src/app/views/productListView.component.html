@@ -12,18 +12,19 @@
     <!--directives ex ngFor - repeat for multiple items-->
     <!--<li *ngFor="let p of store.products">{{p.title}} : ${{p.price}}</li>-->
     <!--<li *ngFor="let p of products">{{p.title}} : ${{p.price}}</li> because removed the product property form productList view-->
-    <div *ngFor="let p of store.products" class="col-md-3">
+    <div *ngFor="let p of store.products" class="col-md-4">
         <div class="border bg-light rounded p-1">
-            <img src="/img/{{p.artId}}.jpg" class="img-fluid" alt="{{p.title}}" title="{{p.title}}" />
+            <img src="/img/{{p.artId}}.jpg" class="img-fluid product-image" alt="{{p.title}}" title="{{p.title}}" />
             <!-- Removew ~ sign from images because it was razor syntax part angular will not understand it -->
-            <h3>{{p.category }}- {{p.size}}</h3>
-            <ul>
-                <li>Price: {{p.price}}</li>
+            <h5>{{p.category }}- {{p.size}}</h5>
+            <ul class="product-props">
+                <li>Price: {{p.price | currency:"INR"}}</li> <!--by default it is dollar-->
                 <li>Artist: {{p.artist}}</li>
                 <li>Title: {{p.title}}</li>
-                <li>Desciption: {{p.artDescription}}</li>
+                <li><!--Desciption:--> {{p.artDescription}}</li>
             </ul>
-            <button id="buybtn" class="btn btn-primary btn-success">Buy</button>
+            <button id="buybtn" class="btn btn-primary btn-success" (click)="store.addToOrder(p)">Buy</button>
+            <!-- this  (click)="store.addToOrder(p)" this is the angular syntax -->
         </div>
     </div>
 

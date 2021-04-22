@@ -5,11 +5,13 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { Store } from './services/store.service';
 import ProductListView from './views/productListView.component';
+import { CartView } from './views/cartView.component';
 
 @NgModule({
   declarations: [
         AppComponent,
-        ProductListView // To use this ProductListView.Component in our page we are including this here
+        ProductListView, // To use this ProductListView.Component in our page we are including this here
+        CartView
   ],
   imports: [
       BrowserModule,
