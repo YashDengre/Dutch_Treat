@@ -1,11 +1,10 @@
-﻿.product-thumb
-{
-    max-height:50px;
-    max-width:50px;
+﻿.product-thumb {
+    max-height: 50px;
+    max-width: 50px;
 }
-.quantity-style
-{
-   color:darkorange;
-   font-weight:400;
-   font-display:block;
+
+.quantity-style {
+    color: darkorange;
+    font-weight: 400;
+    font-display: block;
 }

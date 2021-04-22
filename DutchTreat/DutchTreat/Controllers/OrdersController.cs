@@ -26,7 +26,7 @@ namespace DutchTreat.Controllers
         private readonly UserManager<StoreUser> _userManager;
 
         public OrdersController(IDutchRepository repo, ILogger<OrdersController> logger, IMapper mapper
-            ,UserManager<StoreUser> userManager )
+            , UserManager<StoreUser> userManager)
         {
             _repo = repo;
             _logger = logger;
@@ -119,7 +119,7 @@ namespace DutchTreat.Controllers
                         newOrder.OrderDate = DateTime.Now;
                     }
 
-                    var currentUser =await  _userManager.FindByNameAsync(User.Identity.Name);
+                    var currentUser = await _userManager.FindByNameAsync(User.Identity.Name);
                     newOrder.User = currentUser;
 
                     _repo.AddEntity(newOrder);

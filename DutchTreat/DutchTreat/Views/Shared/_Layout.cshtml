@@ -7,21 +7,22 @@
     <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="~/lib/fortawesome/fontawesome-free/css/all.css" rel="stylesheet" />
     <link href="~/css/WebStyles.css" rel="stylesheet" />
-    @RenderSection("head",false)
+    @RenderSection("head", false)
 </head>
 <body>
-    <header class="navbar-expand-lg"> @* class="container"*@
+    <header class="navbar-expand-lg">
+        @* class="container"*@
         @*<menu>*@
         <nav class="navbar navbar-dark bg-dark navbar-expand-md ">
-            <h1 class="navbar-brand"><i class="fas fa-palette fa-1x fa-spin "></i> Dutch Treat </h1>    <!--Comment the Welcome to because of font awesome icon-->
+            <h1 class="navbar-brand"><i class="fas fa-palette fa-1x @*fa-spin*@ "></i> Dutch Treat </h1>    <!--Comment the Welcome to because of font awesome icon-->
             <button class="navbar-toggler" data-toggle="collapse" data-target="#theMenu">
                 <span class="navbar-toggler-icon"></span>
-                </button>
+            </button>
             <div id="theMenu" class="navbar-collapse collapse">
                 <ul class="navbar-nav">
                     @*<li><a href="/">Home</a></li>
-        <li><a href="/app/About">About Us</a></li>
-        <li><a href="/app/Contact">Contact</a></li>*@
+                        <li><a href="/app/About">About Us</a></li>
+                        <li><a href="/app/Contact">Contact</a></li>*@
                     @*  Below I used tag Helpers instead of direct path *@
                     <li class="navbar-item"><a class="nav-link" asp-controller="App" asp-action="Index">Home</a></li>
                     <li class="navbar-item"><a class="nav-link" asp-controller="App" asp-action="About">About Us</a></li>
@@ -47,7 +48,7 @@
         <h2 class="text-center">@ViewBag.Title</h2>
         @RenderBody()
     </section>
-    <footer style="height:70px;"class="container-fluid navbar-dark bg-dark text-light text-center text-monospace"><div class="text-center"><i class="fas fa-palette fa-1x "></i> Copyright 2019 : Maaazi</div></footer>
+    <footer style="height:70px;" class="container-fluid navbar-dark bg-dark text-light text-center text-monospace"><div class="text-center"><i class="fas fa-palette fa-1x "></i> Copyright 2019 : Maaazi</div></footer>
     <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="~/js/index.js"></script>
 

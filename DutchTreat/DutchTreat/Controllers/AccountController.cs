@@ -104,7 +104,7 @@ namespace DutchTreat.Controllers
                 }
                 return BadRequest();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 _logger.LogInformation(ex.ToString());
                 return BadRequest();

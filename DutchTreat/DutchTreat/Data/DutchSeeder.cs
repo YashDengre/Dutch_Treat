@@ -67,11 +67,11 @@ namespace DutchTreat.Data
                     FirstName = "Yash",
                     LastName = "Dengre",
                     Email = "yash.dengre68@gmail.com",
-                    UserName = "yash.dengre68@gmail.com" ,
-                    
+                    UserName = "yash.dengre68@gmail.com",
+
                 };
                 var result = await _userManager.CreateAsync(user, "P@ssw0rd");
-                if(result != IdentityResult.Success)
+                if (result != IdentityResult.Success)
                 {
                     throw new InvalidOperationException("Could not able to create new user in seeder");
                 }

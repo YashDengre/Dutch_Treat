@@ -15,7 +15,7 @@ using System.Threading.Tasks;
 namespace DutchTreat.Controllers
 {
     [Route("/api/orders/{orderId}/items")]
-    [Authorize(AuthenticationSchemes =JwtBearerDefaults.AuthenticationScheme)]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public class OrderItemsController : Controller
     {
         private readonly IDutchRepository _repo;
@@ -46,7 +46,7 @@ namespace DutchTreat.Controllers
         public IActionResult GetOrderItemByIdForUser(int orderId)
         {
             var user = User.Identity.Name;
-            var order = _repo.GetOrderByIdForUser(user,orderId);
+            var order = _repo.GetOrderByIdForUser(user, orderId);
             if (order != null)
             {
                 return Ok(_mapper.Map<IEnumerable<OrderItem>,

@@ -57,7 +57,7 @@ namespace DutchTreat.Controllers
         {
             try
             {
-                return Ok(_repository.GetProducts().Where(x=>x.Id>10).Take(4));
+                return Ok(_repository.GetProducts().Where(x => x.Id > 10).Take(4));
             }
             catch (Exception ex)
             {
@@ -67,7 +67,7 @@ namespace DutchTreat.Controllers
         }
         [HttpGet]
         [Route("by-action-result-swagger")]
-        [ProducesResponseType(200,Type = typeof(List<Product>))]
+        [ProducesResponseType(200, Type = typeof(List<Product>))]
         [ProducesResponseType(400)]
         public ActionResult<IEnumerable<Product>> GetProductsActionResultForSwagger()
         {

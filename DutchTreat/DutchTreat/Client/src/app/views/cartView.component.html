@@ -14,7 +14,7 @@
     <tbody>
         <tr *ngFor="let item of store.order.items">
             <td>
-                <img src="/img/{{item.productArtId}}.jpg" alt="{{item.productArtist}}" 
+                <img src="/img/{{item.productArtId}}.jpg" alt="{{item.productArtist}}"
                      class="product-thumb" />   <!-- img-fluid class was giving us some error-->
             </td>
             <td>{{item.productCategory}}</td>
@@ -27,6 +27,9 @@
         <tr>
             <td colspan="5">
                 <strong>Subtotal: {{store.order.subtotal | currency}} </strong>
+                <!--<div *ngIf="store.order.subtotal<=3000;then content else other_content">Here is Ignored</div>
+                <ng-template #content>Subtotal: {{store.order.subtotal | currency}} </ng-template>
+                <ng-template #other_content>Amount is greater then 3000</ng-template>-->
             </td>
         </tr>
     </tfoot>

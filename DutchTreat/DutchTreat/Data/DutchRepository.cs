@@ -30,7 +30,7 @@ namespace DutchTreat.Data
 
         public IEnumerable<Order> GetAllOrders(bool includeItem)
         {
-            if(includeItem)
+            if (includeItem)
             {
                 return _ctx.Orders.Include(i => i.Items)
                     .ThenInclude(i => i.Product).ToList();
@@ -93,7 +93,7 @@ namespace DutchTreat.Data
 
             if (includeItem)
             {
-                return _ctx.Orders.Where(o=>o.User.UserName == user).Include(i => i.Items)
+                return _ctx.Orders.Where(o => o.User.UserName == user).Include(i => i.Items)
                     .ThenInclude(i => i.Product).ToList();
             }
             else
