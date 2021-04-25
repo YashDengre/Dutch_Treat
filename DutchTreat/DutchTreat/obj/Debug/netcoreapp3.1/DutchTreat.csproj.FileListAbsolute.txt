@@ -1,7 +1,13 @@
+Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\bin\Debug\netcoreapp3.1\Client\angular.json
+Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\bin\Debug\netcoreapp3.1\Client\package-lock.json
+Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\bin\Debug\netcoreapp3.1\Client\package.json
+Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\bin\Debug\netcoreapp3.1\Client\tsconfig.app.json
+Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\bin\Debug\netcoreapp3.1\Client\tsconfig.json
 Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\bin\Debug\netcoreapp3.1\config.json
 Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\bin\Debug\netcoreapp3.1\Data\art.json
 Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\bin\Debug\netcoreapp3.1\libman.json
 Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\bin\Debug\netcoreapp3.1\Resources\art.json
+Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\bin\Debug\netcoreapp3.1\tsconfig.json
 Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\bin\Debug\netcoreapp3.1\DutchTreat.exe
 Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\bin\Debug\netcoreapp3.1\DutchTreat.deps.json
 Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\bin\Debug\netcoreapp3.1\DutchTreat.runtimeconfig.json
@@ -276,6 +282,7 @@ Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\Dutch
 Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\bin\Debug\netcoreapp3.1\DutchTreat.Views.pdb
 Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\bin\Debug\netcoreapp3.1\AutoMapper.dll
 Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
 Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
@@ -373,6 +380,7 @@ Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\Dutch
 Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\obj\Debug\netcoreapp3.1\DutchTreat.RazorCoreGenerate.cache
 Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
 Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
 Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\obj\Debug\netcoreapp3.1\Razor\Views\App\About.cshtml.g.cs
 Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\obj\Debug\netcoreapp3.1\Razor\Views\App\Contact.cshtml.g.cs
 Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\obj\Debug\netcoreapp3.1\Razor\Views\App\Index.cshtml.g.cs
@@ -387,12 +395,6 @@ Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\Dutch
 Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\obj\Debug\netcoreapp3.1\DutchTreat.dll
 Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\obj\Debug\netcoreapp3.1\DutchTreat.pdb
 Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\obj\Debug\netcoreapp3.1\DutchTreat.genruntimeconfig.cache
-Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
-Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\bin\Debug\netcoreapp3.1\tsconfig.json
+Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\bin\Debug\netcoreapp3.1\package-lock.json
+Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\bin\Debug\netcoreapp3.1\package.json
 Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\obj\Debug\netcoreapp3.1\DutchTreat.csprojAssemblyReference.cache
-Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\bin\Debug\netcoreapp3.1\Client\angular.json
-Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\bin\Debug\netcoreapp3.1\Client\package-lock.json
-Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\bin\Debug\netcoreapp3.1\Client\package.json
-Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\bin\Debug\netcoreapp3.1\Client\tsconfig.app.json
-Y:\Code\PluralSight Course DotNet Core + Angular + Entity Core + MVC + API\DutchTreat\DutchTreat\bin\Debug\netcoreapp3.1\Client\tsconfig.json

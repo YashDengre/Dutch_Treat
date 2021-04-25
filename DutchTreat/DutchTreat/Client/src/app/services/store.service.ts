@@ -1,7 +1,8 @@
-﻿import { HttpClient } from "@angular/common/http";
+﻿import { HttpClient, HttpHeaders } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 import { Observable } from "rxjs";
 import { map } from "rxjs/operators";
+import { LoginRequest, LoginResults } from "../shared/LoginResults";
 import { Order, OrderItem } from "../shared/Order";
 import { Product } from "../shared/Product";
 
@@ -20,6 +21,36 @@ export class Store {
     //    title: "Van Gogh Poster",
     //    price: "29.99"
     //}]; 
+
+    //Angular Login: Start
+    public token = "";
+    public expiration = new Date();
+
+    //this is the getter property
+    get loginRequired(): boolean {
+        return this.token.length === 0 || this.expiration < new Date();
+
+    }
+
+    login(creds: LoginRequest) {
+        return this.http.post<LoginResults>("/account/CreateToken", creds)
+            .pipe(map(data => {
+                this.token = data.token;
+                this.expiration = data.expiration;
+            }));
+    }
+
+    checkout()
+    {
+        const headers = new HttpHeaders().set("Authorization",`Bearer ${this.token}`);
+
+        // return this.http.post("/api/orders",this.order, {headers:headers})
+        return this.http.post("/api/orders/create-order-auto-mapper",this.order, {headers:headers})
+        .pipe(map(()=>{this.order = new Order();
+        }));
+    }
+
+    //Angular Login: End
     public order: Order = new Order();
     loadProducts(): Observable<void> {
         return this.http.get<[]>("/api/product").pipe(map(data => { //use generic <[]> to tell product is array type

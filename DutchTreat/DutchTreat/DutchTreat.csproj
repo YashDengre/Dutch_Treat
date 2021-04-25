@@ -1,7 +1,9 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <!--<RuntimeIdentifier>win10-x64</RuntimeIdentifier>-->
+    <RuntimeIdentifier>OSX.10.10-x64</RuntimeIdentifier>
   </PropertyGroup>
 
   <ItemGroup>
@@ -18,5 +20,13 @@
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.13" />
   </ItemGroup>
+
+  <!-- allows us to tell ms build that we want to do something at certain point in the build -->
+  <Target Name="MyPublishScript" BeforeTargets="BeforePublish">
+    <Exec Command="npm install " />
+    <Exec Command="gulp" />
+    <Exec Command="npm install" WorkingDirectory=".\\Client" />
+    <Exec Command="ng build --prod" WorkingDirectory=".\\Client" />
+  </Target>
 
 </Project>

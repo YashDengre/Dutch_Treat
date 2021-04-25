@@ -8,8 +8,11 @@ import ProductListView from './views/productListView.component';
 import { CartView } from './views/cartView.component';
 import router from './router';
 import { ShopPage } from './pages/shopPage.component';
-import { Checkout } from './pages/checkout.component';
+import { CheckoutPage } from './pages/checkout.component';
 import { DataService } from './services/dataService.service';
+import { LoginPage } from './pages/loginPage.component';
+import { AuthActivator } from './services/authActivator.service';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
     declarations: [
@@ -17,15 +20,19 @@ import { DataService } from './services/dataService.service';
         ProductListView, // To use this ProductListView.Component in our page we are including this here
         CartView,
         ShopPage,
-        Checkout],
+        CheckoutPage,
+        LoginPage,
+    ],
     imports: [
         BrowserModule,
         HttpClientModule,
-        router
+        router,
+        FormsModule //used this for ngModel 
     ],
     providers: [
         Store,
-        DataService],
+        DataService,
+        AuthActivator],
     bootstrap: [AppComponent] //it says we first render the AppComponent which is in app folder 
 })
 export class AppModule { }

@@ -1,13 +1,20 @@
 ﻿import { RouterModule } from "@angular/router";
-import { Checkout } from "../pages/checkout.component";
+import { CheckoutPage } from "../pages/checkout.component";
+import { LoginPage } from "../pages/loginPage.component";
 import { ShopPage } from "../pages/shopPage.component";
+import { AuthActivator } from "../services/authActivator.service";
 
 const routes = [
     { path: "", component: ShopPage },
-    { path: "checkout", component: Checkout }
+    { path: "checkout", component: CheckoutPage, canActivate: [AuthActivator] },
+    { path: "login", component: LoginPage },
+    { path: "**", redirectTo: "/" }
+     // Above-> [Fall back route:"**"] [ "/": Default Page] This particular route means if none of the other routes works
+     // then please execute this once and it iwll simply call the default page which is shop page
+
 ];
 
-const router = RouterModule.forRoot(routes, { useHash:false });
+const router = RouterModule.forRoot(routes, { useHash: false });
 export default router;
 
 

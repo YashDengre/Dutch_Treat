@@ -63,7 +63,8 @@ namespace DutchTreat.Controllers
             ViewBag.Title = "About";
             return View();
         }
-        [Authorize]
+        //[Authorize] : to use authorization through Angular: -we want people to shop before even they
+        //login but while checkout they should have the login authrozied
         public IActionResult Shop()
         {
             //var result = _context.Products.ToList();
